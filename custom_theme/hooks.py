@@ -8,6 +8,11 @@ app_license = "mit"
 
 # Includes in <head>
 # ------------------
+website_context = {
+	"favicon": '/assets/custom_theme/images/Favicon.png',
+	"splash_image": "/assets/custom_theme/images/Favicon.png"
+}
+app_logo_url="/assets/custom_theme/images/Favicon.png"
 
 # include js, css files in header of desk.html
 #app_include_css = "/assets/custom_theme/css/custom_theme.css"
