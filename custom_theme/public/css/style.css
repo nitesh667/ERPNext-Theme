@@ -1,0 +1,91 @@
+.layout-side-section {
+    background: #584c4c;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+}
+
+
+.navbar-nav .nav-item:nth-child(4) {
+    display: none !important;
+}
+.page-head {
+    background: #584c4c;
+}
+[data-page-route=Workspaces] .layout-main-section {
+    background-color: #FFFDF9;
+    box-shadow: none;
+}
+.layout-side-section {
+    color: white;
+}
+.icon, .es-icon {
+    fill: #bfbfbf;
+    stroke: #c8c8c8;
+}
+.standard-sidebar .standard-sidebar-item:hover, .desk-sidebar .standard-sidebar-item:hover, .search-dialog .search-results .search-sidebar .standard-sidebar-item:hover {
+    background-color: #999999;
+    text-decoration: none;
+}
+.standard-sidebar .standard-sidebar-item .sidebar-item-label, .desk-sidebar .standard-sidebar-item .sidebar-item-label, .search-dialog .search-results .search-sidebar .standard-sidebar-item .sidebar-item-label {
+    min-width: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: white;
+}
+.navbar {
+    perspective: 3200px;
+    background: #f3f0ec;
+}
+
+body {
+    background-color: #f3f0ec;
+}
+.widget.onboarding-widget-box {
+    margin-bottom: var(--margin-2xl);
+    background-color: #ffffff00;
+    border-bottom: none;
+    border-radius: 0;
+}
+.widget {
+    background-color: #ffffff00;
+}
+
+a {
+    color: #303030!important;
+   
+}
+.standard-sidebar .standard-sidebar-item.selected, .desk-sidebar .standard-sidebar-item.selected, .search-dialog .search-results .search-sidebar .standard-sidebar-item.selected {
+    background-color: #8d8d8d;
+}
+.for-login .page-card, .for-forgot .page-card, .for-login-with-email-link .page-card, .for-signup .page-card, .for-email-login .page-card {
+    box-shadow: 1px 1px 17px 1px #0000000d;
+}
+a {
+    color: #f6f6f6;
+    cursor: pointer;
+}
+.navbar-light {
+    background: white;
+    box-shadow: 0px 1px 14px 1px #0000001c;
+}
+
+
+.widget.onboarding-widget-box .widget-body .onboarding-step.active, .widget.onboarding-widget-box .widget-body .onboarding-step:hover {
+    background-color: #9f9292;
+    color: white;
+}
+.widget.onboarding-widget-box .widget-body .onboarding-step {
+    background: #d6d6d6;
+    color: black!important;
+}
+.navbar-nav .nav-item:nth-child(4) {
+    display: none !important;
+    }
+
+.page-title .title-area .title-text{
+    color: white;
+}   
+.icon, .es-icon {
+    stroke: #584c4c;
+} 
